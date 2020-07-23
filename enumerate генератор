@@ -1,0 +1,5 @@
+number = [x for x in range(10) if x % 2 == 1]
+print(number)
+print([x + 1 for x in range(10) if x % 2 == 1])
+b = list(enumerate(range(10)))
+print(b)
